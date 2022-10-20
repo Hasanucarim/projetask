@@ -108,7 +108,7 @@
     left: 50%;
     transform: translate(-50% ,-20%);
     list-style: none;
-    word-spacing: 30px;
+  
     
         
 } 
@@ -118,6 +118,24 @@
     font-weight: 800;
     text-decoration: none;
     
+
+}
+
+h3 {
+    margin: 5px 0 0 5px;
+    color: white;
+}
+
+.sos {
+
+
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+
+}
+.sos div {
+    display: inline-flex;
 }
 
 /* Burada sosyal medya aralarını açıp alana yayılmasını istiyorum ancak margin soldan sağa değer verince bozuluyor. Nedendir acab?*/
@@ -125,6 +143,6 @@
     
     list-style: none;
     display:inline-block;
-    margin: 0 10px 10px
+    margin: 0 40px
        
 }
